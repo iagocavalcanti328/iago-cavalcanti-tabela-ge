@@ -1,0 +1,36 @@
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+table { 
+    border:  1px solid #7693c0;
+    border-spacing: 8px 0 0;
+    border-collapse: collapse;
+}
+table td,
+table th {
+    border: 1px solid #7693c0;
+    padding:8px;
+    text-align: left; 
+}
+tr:nth-child(even) {background-color: white;}
+
+th:nth-child(1) {background: white;}
+th:nth-child(2) { background: rgb(13, 53, 85); color: white; }
+th:nth-child(3) { background: rgb(13, 53, 85); color: white; }
+th:nth-child(4) { background: rgb(72, 151, 54); color: white; }
+th:nth-child(5) { background: rgb(255, 238, 0); color: white; }
+th:nth-child(6) { background: rgb(201, 8, 8); color: white; }
+th:nth-child(7) { background: rgb(13, 53, 85); color: white; }
+th:nth-child(8) { background: rgb(13, 53, 85); color: white; }
+th:nth-child(9) { background: rgb(13, 53, 85); color: white; }
+th:nth-child(10) { background: rgb(13, 53, 85); color: white; }
+
+tr:nth-child(2):nth-child(2) td:first-child  {background-color: rgb(13, 53, 85);  color: white;}
+tr:nth-child(3) td:first-child  {background-color: rgb(13, 53, 85);  color: white;}
+tr:nth-child(4) td:first-child  {background-color: rgb(13, 53, 85);  color: white;}
+tr:nth-child(5) td:first-child  {background-color: rgb(0, 174, 255); color: white;}
+tr:nth-child(6) td:first-child  {background-color: rgb(0, 174, 255); color: white;}
+tr:nth-child(7) td:first-child  {background-color: rgb(72, 151, 54); color: white;}
+tr:nth-child(11) td:first-child  {background-color: rgb(201, 8, 8); color: white;}
